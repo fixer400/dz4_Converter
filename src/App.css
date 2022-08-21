@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.converter{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.converter__main{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.converter__input{
+  height: 50%;
+  width: 100%;
+  font-size: 38px;
+  text-align: center;
+}
+
+.converter__label{
+  height: 50%;
+  width: 100%;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  background-color: rgb(104, 102, 102);
+}
